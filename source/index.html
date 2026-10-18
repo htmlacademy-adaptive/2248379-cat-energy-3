@@ -21,39 +21,38 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header">
-    <nav class="main-navigation">
-      <a class="main-navigation__logo" href="index.html">
-        <img class="main-navigation__logo-image" src="img/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
-
-        <img class="main-navigation__logo-text" src="img/logo-text.svg" width="101" height="18" alt="Cat Energy">
+  <header class="main-header">
+    <div class="main-header__container">
+      <a class="main-header__logo logo" href="/">
+        <picture>
+          <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg">
+          <source width="60" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-tablet.svg">
+          <img class="logo__picture" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
+        </picture>
+        <picture>
+          <source width="118" height="21" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg">
+          <source width="101" height="18" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-text-tablet.svg">
+          <img class="logo__image" src="images/logo-text-mobile.svg" width="101" height="18" alt="Текст логотипа Cat Energy">
+        </picture>
       </a>
-
-      <button class="main-navigation__toggle" type="button">
-        <span class="visually-hidden">
-          Открыть меню
-        </span>
+    </div>
+    <nav class="main-navigation main-navigation--closed main-navigation--nojs">
+      <button class="main-navigation__toggle" type="button" aria-label="Main nav">
+        <span class="visually-hidden">Открыть меню</span>
       </button>
-
-      <ul class="site-list">
-        <li class="site-list__item">
-          <a class="site-list__link site-list__link--current" href="index.html">
-            Главная
-          </a>
-        </li>
-
-        <li class="site-list__item">
-          <a class="site-list__link" href="catalog.html">
-            Каталог продукции
-          </a>
-        </li>
-
-        <li class="site-list__item">
-          <a class="site-list__link" href="#">
-            Подбор программы
-          </a>
-        </li>
-      </ul>
+      <div class="main-navigation__wrapper">
+        <ul class="main-navigation__list site-list main-navigation__list--close">
+          <li class="site-list__item site-list__item--active">
+            <a class="main-navigation__link main-navigation__link--index main-navigation__link--current" href="/">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a class="main-navigation__link main-navigation__link--index" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="site-list__item">
+            <a class="main-navigation__link main-navigation__link--index" href="#">Подбор программы</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 

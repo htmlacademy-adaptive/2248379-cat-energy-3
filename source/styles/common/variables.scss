@@ -51,3 +51,6 @@ $desktop-only: "(min-width: #{$breakpoint-desktop})";
 $desktop-big-only: "(min-width: #{$breakpoint-big-desktop})";
 $not-mobile: "(min-width: #{$breakpoint-tablet})";
 $not-desktop: "(max-width: #{$breakpoint-desktop - $breakpoint-gap})";
+
+$src1: url("../../fonts/lato/Lato-Regular.woff2") format(woff2);
+$src2: url("../../fonts/oswald/oswaldregular.woff2") format(woff2);

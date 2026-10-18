@@ -14,12 +14,12 @@
   list-style-type: none;
 }
 
-@mixin font-setting($f-family: $primary-font, $f-size: 14px, $f-weight: 400, $f-height: 18px, $f-color: $f-main) {
-  font-family: $f-family;
-  font-size: $f-size;
-  font-weight: $f-weight;
-  line-height: $f-height;
-  color: $f-color;
+@mixin font-setting($font-family: $primary-font, $font-size: 14px, $font-weight: 400, $font-height: 18px, $font-color: $font-main) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $font-height;
+  color: $font-color;
 }
 
 @mixin tablet() {
