@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       iconSize = [57, 53];
     }
 
-    const myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
+    myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
       iconLayout: 'default#image',
       iconImageHref: 'images/map-pin.png',
       iconImageSize: iconSize,
