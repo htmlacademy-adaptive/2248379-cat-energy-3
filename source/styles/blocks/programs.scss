@@ -32,7 +32,7 @@
 }
 
 .programs__item--loss {
-  background-image: url("../../stack.svg#cat-slim");
+  background-image: url("../../icons/stack.svg#cat-slim");
   background-size: 50px 53px;
   background-position: 20px 21px;
 
@@ -48,7 +48,7 @@
 }
 
 .programs__item--gain {
-  background-image: url("../../stack.svg#cat-pro");
+  background-image: url("../../icons/stack.svg#cat-pro");
   background-size: 67px 50px;
   background-position: 11px 25px;
 
@@ -157,7 +157,7 @@
   &::after {
     content: "";
     background-color: $font-secondary;
-    mask-image: url("../../stack.svg#arrow");
+    mask-image: url("../../icons/stack.svg#arrow");
     mask-position: 100%;
     mask-size: 24px 12px;
     mask-repeat: no-repeat;

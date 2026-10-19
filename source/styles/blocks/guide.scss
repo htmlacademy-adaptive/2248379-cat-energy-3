@@ -60,34 +60,34 @@
 }
 
 .guide__item--nutrients::before {
-  background-image: url("../../stack.svg#nutrients-mobile");
+  background-image: url("../../icons/stack.svg#nutrients-mobile");
 
   @include tablet {
-    background-image: url("../../stack.svg#nutrients");
+    background-image: url("../../icons/stack.svg#nutrients");
   }
 }
 
 .guide__item--powder::before {
-  background-image: url("../../stack.svg#powder-mobile");
+  background-image: url("../../icons/stack.svg#powder-mobile");
 
   @include tablet {
-    background-image: url("../../stack.svg#powder");
+    background-image: url("../../icons/stack.svg#powder");
   }
 }
 
 .guide__item--replacement::before {
-  background-image: url("../../stack.svg#replacement-mobile");
+  background-image: url("../../icons/stack.svg#replacement-mobile");
 
   @include tablet {
-    background-image: url("../../stack.svg#replacement");
+    background-image: url("../../icons/stack.svg#replacement");
   }
 }
 
 .guide__item--change::before {
-  background-image: url("../../stack.svg#change-mobile");
+  background-image: url("../../icons/stack.svg#change-mobile");
 
   @include tablet {
-    background-image: url("../../stack.svg#change");
+    background-image: url("../../icons/stack.svg#change");
   }
 }
 
